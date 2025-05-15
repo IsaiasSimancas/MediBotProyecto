@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medibot - Detalle de Producto</title>
+    <link rel="shortcut icon" href="img/logo-medibot.ico" type="Icono Medibot">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-left">
+                <a href="index.html" class="logo-link">
+                    <img id="logo" src="img/logofarmacia1.png" alt="FarmaExpress Logo">
+                    <span class="logo-text">FarmaExpress</span>
+                </a>
+            </div>
+
+            <div class="header-right">
+                <a href="#" class="icon-btn" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="badge" id="cart-count">0</span>
+                </a>
+                <a href="index.html" class="btn btn-primary">Iniciar Sesión</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="back-link">
+            <a href="catalogo.html">
+                <i class="fas fa-arrow-left"></i> Volver al catálogo
+            </a>
+        </div>
+
+        <div class="product-detail-container" id="product-detail">
+            <!-- Product details will be loaded dynamically with JavaScript -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>FarmaExpress</h3>
+                <p>Su farmacia de confianza con los mejores productos y precios.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="catalog.html">Catálogo</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <address>
+                    <p>Calle Principal #123</p>
+                    <p>Ciudad, País</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: info@farmaexpress.com</p>
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> FarmaExpress. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/product-detail.js"></script>
+</body>
+</html>
